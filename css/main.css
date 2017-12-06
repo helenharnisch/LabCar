@@ -1,0 +1,297 @@
+/* Los estilos de tu proyecto */
+
+/*Menú*/
+
+body {
+   overflow-x: hidden;
+}
+
+nav.navbar {
+  background-color: #fff;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  border: none;
+}
+
+/*Primera sección*/
+/*Imagen*/
+
+.jumbotron {
+  background-image: url(../assets/images/taxi.jpg);
+  background-size: cover;
+  background-position: center 92%;
+  background-repeat: no-repeat;
+  min-height: 640px;
+  margin-bottom: 0;
+  overflow-x: hidden;
+}
+
+/*Info*/
+
+.info {
+  background: #f5b318;
+  padding: 20px;
+  padding-left: 40px;
+  margin-top: 60px;
+}
+
+.info h1, .info h2, .info p {
+  color: #fff;
+}
+
+.info img {
+  height: 1em;
+  width: auto;
+}
+
+/*Linea de Info*/
+
+.line {
+  color: #fff;
+}
+
+.line:after {
+border-top: 1px solid #fff;
+width: 110px;
+display: inline-block;
+margin-left: 50px;
+}
+
+.line:before {
+border-top: 1px solid #fff;
+width: 110px;
+display: inline-block;
+margin: 0px 10px;
+margin-right: 50px;
+}
+
+.line:before, .line:after {
+content: "";
+}
+
+/*Botones de Info*/
+
+.one, .two {
+  border: none;
+  color: #000;
+  background: #fff;
+}
+
+.one:hover, .two:hover {
+  border: none;
+  color: #fff;
+  background: #000;
+}
+
+.one {
+  margin-bottom: 15px;
+}
+
+.two {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+/*Segunda sección*/
+
+.section-second {
+  background: #f5b318;
+}
+
+.section-second h3 {
+  font-size: 25px;
+  color: #fff;
+}
+
+.section-second h4 {
+  color: #fff;
+}
+
+.section-second p {
+  font-size: 17px;
+  color: #fff;
+}
+
+.section-second .text {
+  margin-top: 30px;
+}
+
+.section-second .cel {
+  border: 1px solid #fff;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 100px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.section-second img {
+  width: 80%;
+}
+
+.section-second .occult {
+  border: 1px solid #fff;
+  padding: 30px;
+  margin: 30px;
+  margin-bottom: 10px;
+}
+
+.section-second .text2 {
+  margin-left: 20px;
+}
+
+/*Tercera sección*/
+
+.section-third {
+  background-image: url(../assets/images/conduce.jpg);
+  background-size: cover;
+  background-position: center 55%;
+  background-repeat: no-repeat;
+  min-height: 460px;
+  margin-bottom: 0;
+  overflow-x: hidden;
+}
+
+.section-third .info2 {
+  background: rgba(9, 1, 8, 0.62);
+  height: 460px;
+  padding: 20px;
+  padding-left: 40px;
+  padding-top: 100px;
+}
+
+.section-third .info2 h2, .section-third .info2 p {
+  color: #fff;
+}
+
+.section-third .info2 p {
+  font-size: 17px;
+}
+
+.section-third .one {
+  background: #f5b318;
+  color: #fff;
+}
+
+/*Cuarta sección*/
+
+.section-fourth {
+  background: #f5b318;
+}
+
+.section-fourth .fourth {
+  padding-top: 60px;
+  padding-bottom: 80px;
+}
+
+.section-fourth h2, .section-fourth p {
+  color: #fff;
+}
+
+.section-fourth p {
+  font-size: 17px;
+}
+
+/*Formulario*/
+
+.section-fourth .form-control {
+  color: #fff;
+  background: #f5b318;
+  border: 1px solid #fff;
+}
+
+.section-fourth .form {
+  padding-top: 10px;
+}
+
+.section-fourth .one {
+  color: #000;
+  background: #fff;
+}
+
+.input-group-addon {
+  background: none;
+  border: none;
+}
+
+.form-control{
+  height: 3em;
+}
+
+/*Cambiar placeholder input (ayuda compañera)*/
+
+.form-control::-webkit-input-placeholder {
+    color: white;
+}
+.form-control::-moz-placeholder {
+    color: white;
+}
+.form-control:-ms-input-placeholder {
+    color: white;
+}
+.form-control:-moz-placeholder {
+    color: white;
+}
+
+/*Como no es "imagen" no puedo usar la clase .img-thumbnail*/
+
+.mapa {
+  width: fit-content;
+  outline: 1px solid #fff;
+  padding: 5px;
+  padding-bottom: 0;
+  margin: 10px auto;
+}
+
+iframe {
+  width: 100%;
+}
+
+/*Footer*/
+
+.footer {
+  background: #2a2c2d;
+  padding-top: 40px;
+}
+
+.footer-occult {
+  background: #2a2c2d;
+  padding: 5px;
+  padding-bottom: 15px;
+}
+
+.footer p, .footer-occult p {
+ color: #fff;
+}
+
+.footer .stores img, .footer-occult .stores img {
+  width: 130px;
+  height: 40px;
+  margin: 10px;
+}
+
+.footer .stores {
+  display: flex;
+  align-items: flex-end;
+  height: 320px;
+}
+
+.footer .icons {
+  display: flex;
+  align-items: flex-end;
+  height: 320px;
+}
+
+.footer-occult .icons {
+  display: flex;
+  align-items: flex-end;
+}
+
+.footer p a, .footer-occult p a {
+  color: #fff;
+}
+
+.footer p, .footer-occult p {
+  margin: 5px;
+  padding-bottom: 15px;
+}

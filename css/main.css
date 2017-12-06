@@ -173,6 +173,11 @@ content: "";
   color: #fff;
 }
 
+.section-third .one:hover {
+  background: #fff;
+  color: #f5b318;
+}
+
 /*Cuarta sección*/
 
 .section-fourth {
@@ -207,6 +212,11 @@ content: "";
 .section-fourth .one {
   color: #000;
   background: #fff;
+}
+
+.section-fourth .one:hover {
+  color: #fff;
+  background: #000;
 }
 
 .input-group-addon {
@@ -289,6 +299,11 @@ iframe {
 
 .footer p a, .footer-occult p a {
   color: #fff;
+}
+
+.footer p a:hover, .footer-occult p a:hover {
+  color: #f5b318;
+  text-decoration: none;
 }
 
 .footer p, .footer-occult p {
